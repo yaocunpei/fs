@@ -1,5 +1,10 @@
-# 小跟班团队的代码 #
-
+# CIKM 2022 AnalytiCup Competition 参赛代码 #
+团队名：**小跟班**
 ## 命令行运行指令 ##
 先进入到fs文件\
-'federatedscope\main.py --cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup.yaml --client_cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup_per_client.yaml'
+然后在命令行运行以下指令
+```commandline
+federatedscope\main.py --cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup.yaml --client_cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup_per_client.yaml
+```
+## 所开发算法简介 ##
+在FedAvg算法的基础上，通过调节 `federate.total_round_num` 和 `train.local_update_steps` 来改善算法
