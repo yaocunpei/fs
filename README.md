@@ -1,8 +1,9 @@
 # CIKM 2022 AnalytiCup Competition 参赛代码 #
 团队名：**小跟班**
 ## 命令行运行指令 ##
-先进入到fs文件\
-然后在命令行运行以下指令
+1.下载官方数据集至`data`文件夹\
+2.进入到`fs`文件夹\
+3.然后在命令行运行以下指令
 ```commandline
 federatedscope\main.py --cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup.yaml --client_cfg federatedscope/gfl/baseline/fedavg_gin_minibatch_on_cikmcup_per_client.yaml
 ```
